@@ -1,0 +1,24 @@
+{
+  "openweather_api_key": "YOUR_API_KEY_HERE",
+  "location": "London,UK",
+  "temp_threshold_low": 4,
+  "temp_threshold_high": 5,
+  "check_interval": 300,
+
+  "kasa_devices": [
+    "Heater Living Room",
+    "Heater Bedroom"
+  ],
+
+  "tuya_devices": [
+    {
+      "name": "Heater Office",
+      "device_id": "YOUR_DEVICE_ID",
+      "ip_address": "192.168.1.100",
+      "local_key": "YOUR_LOCAL_KEY",
+      "version": 3.3
+    }
+  ],
+
+  "google_home_devices": []
+}
